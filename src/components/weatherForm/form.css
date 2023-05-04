@@ -1,0 +1,55 @@
+.Form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 0;
+  width: 70%;
+}
+
+.Form input {
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #000;
+  margin-bottom: 10px;
+  background-color: inherit;
+  color: #fff;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
+}
+
+.Form input:focus {
+  background-color: #000;
+}
+
+.Form input:hover {
+  background-color: #000;
+}
+
+.Form button {
+  background-color: #2ca8fa;
+  border: 2px solid #000;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: bold;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  border-radius: 3%;
+}
+
+.Form button:hover {
+  background-color: #2286c9;
+}
+
+.Form button:active {
+  background-color: #1b689b;
+}
+/*# sourceMappingURL=form.css.map */
