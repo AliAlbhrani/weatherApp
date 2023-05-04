@@ -4,7 +4,6 @@ import Data from "./components/weatherData/Data";
 import './App.css';
 
 const API_KEY = "6b71316418474e5f736fa39931aaefac";
-// https://api.openweathermap.org/data/2.5/weather?q=cairo%2Cegypt&appid=e36ed364400282e43250b6c4c0274d44
 class App extends Component{
   state={
     temp:"",

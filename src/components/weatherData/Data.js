@@ -13,7 +13,7 @@ class Data extends Component{
             <br/><h3>weather : </h3>
             <div className="weather">
               
-              <h4>temp : </h4><span>{Math.round(this.props.data.temp - 273.15)}°C</span>
+              <h4>temp : </h4><span>{Math.round(this.props.data.temp - 271.15)}°C</span>
               <br/><h4>humidity : </h4><span>{this.props.data.humidity}%</span>
               <br/><h4>description : </h4><span>{this.props.data.description}</span>
             </div>
