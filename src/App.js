@@ -22,7 +22,6 @@ class App extends Component{
     if (city !=="" & country !==""){
       const api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}%2C${country}&appid=${API_KEY}`);
       const data = await api.json();
-      console.log(data);
       this.setState({
         temp:data.main.temp,
         city:data.name,
