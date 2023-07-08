@@ -3,9 +3,9 @@ import "./form.css";
 const Form =(props)=>{
   return(
     <form className="Form" onSubmit={props.getWeather}>
-      <input name="city" type="text" placeholder="City..."/>
-      <input name="country" type="text" placeholder="Country..."/>
-      <button type="submit" >get weather</button>
+      <input name="city" type="text" placeholder={props.isArabic?"المدينة":"City..."}/>
+      <input name="country" type="text" placeholder={props.isArabic?"الدولة":"Country..."}/>
+      <button type="submit" >{props.isArabic?"حالة الطقس":"get weather"}</button>
     </form>
   )
 }
